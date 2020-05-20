@@ -6,7 +6,7 @@
 
   tasks:
   - name: include vars
-    include_vars: change_request_vars.yml
+    include_vars: change_req_vars.yml
 
   - name: Create a change request
     snow_record:
