@@ -9,6 +9,13 @@
         banner: login
         text: "DEMO BANNER FOR DEVICE {{ inventory_hostname }}"
         state: present
+      register: banner_output
+ 
+    - name: banner output
+      debug: var=banner_output
+
+    - name: incident number
+      debug: var=incident_num
 
 
     - name: MARK THE TICKET AS RESOLVED
