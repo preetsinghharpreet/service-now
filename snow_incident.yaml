@@ -7,7 +7,8 @@
     - name: GATHER THE CURRENT BANNER ON THE DEVICE
       ios_command:
         commands:
-          - show banner login
+                #- show banner login
+          - show run | include banner
       register: banner
 
     - name: VISUAL OUTPUT
