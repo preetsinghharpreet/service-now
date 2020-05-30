@@ -1,9 +1,9 @@
 ---
 #snow_record variables
  
-sn_username: admin
-sn_password: Redhat@123
-sn_instance: dev95427
+sn_username: <user-name>
+sn_password: <password>
+sn_instance: <instance-id>
  
 #data variables
  
